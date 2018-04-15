@@ -31,7 +31,7 @@ public class Game {
 	public void appenGameMessage(String message) {
         
 		gameMessage.append(message);
-		gameMessage.append("/n");
+		gameMessage.append("\r\n");
 	}
 
 	public String createRockQuestion(int index) {
